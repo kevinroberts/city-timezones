@@ -12,7 +12,7 @@
         "cities",
         "global",
         "lookups",
-        "geo",
+        "geo"
     ],
     "homepage": "https://github.com/kevinroberts/city-timezones#readme",
     "author": "Kevin Roberts",
