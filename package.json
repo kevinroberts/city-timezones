@@ -1,0 +1,15 @@
+{
+  "name": "city-timezones",
+  "version": "1.0.0",
+  "description": "A fast method of looking up a timezone given the name of a city.",
+  "main": "index.js",
+  "repository": {},
+  "author": "Kevin Roberts",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
