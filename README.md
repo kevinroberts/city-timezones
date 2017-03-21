@@ -1,6 +1,6 @@
 # city-timezones
 
-A light and fast method of looking up timezones given the name of city.
+A light and fast method of looking up timezones given the name of a city.
 
 ```bash
 npm install city-timezones
@@ -13,6 +13,7 @@ var cityTimezones = require('city-timezones');
 ### cityTimezones.lookupViaCity(city: string)
 
 If a city is found, returns an **array** of possible matches with city, state, lat, lng, timezone. Returns an empty `[]` if nothing matches. Multiple cities can be found if they have the same name, i.e. Springfield.
+A U.S. based city will contain a `state_ansi` property which is the abbreviated form of a US State [ANSI State Table](https://www.census.gov/geo/reference/ansi_statetables.html)
 
 finding based on city name of Chicago:
 ```javascript

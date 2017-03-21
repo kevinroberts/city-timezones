@@ -1,11 +1,14 @@
 {
     "name": "city-timezones",
-    "version": "1.0.1",
-    "description": "A fast method of looking up a timezone given the name of a city.",
+    "version": "1.0.2",
+    "description": "A light and fast method of looking up timezones given the name of a city.",
     "main": "index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/kevinroberts/city-timezones.git"
+    },
+    "scripts": {
+        "test": "mocha"
     },
     "keywords": [
         "timezone",
