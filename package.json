@@ -1,6 +1,6 @@
 {
     "name": "city-timezones",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A light and fast method of looking up timezones given the name of a city.",
     "main": "index.js",
     "repository": {
