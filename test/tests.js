@@ -7,6 +7,11 @@ describe('City lookup tests', function() {
       console.log('found Chicago by name: ', city)
       assert.equal(41.82999066, city[0].lat);
     });
+    it('finding Chicago lower cased', function() {
+      let city = cityTimezones.lookupViaCity('chicago')
+      console.log('found Chicago by name lower case: ', city)
+      assert.equal(41.82999066, city[0].lat);
+    });
     it('return empty for non matching city', function() {
       let city = cityTimezones.lookupViaCity('Foobar')
       assert.deepEqual([], city);
