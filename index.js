@@ -21,7 +21,7 @@ function findPartialMatch(itemsToSearch, searchString) {
 
 function lookupViaPartialMatch(searchString) {
   var searchItems = searchString.split(" ");
-  const cityLookup = _.filter(cityMapping, function (o) { return findPartialMatch([o.city,o.province,o.country], searchString) })
+  const cityLookup = _.filter(cityMapping, function (o) { return findPartialMatch([o.city,o.state_ansi,o.province,o.country], searchString) })
   if (cityLookup && cityLookup.length > 0) {
     return cityLookup
   } else {
