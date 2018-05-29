@@ -22,3 +22,17 @@ describe('City lookup tests', function() {
       assert(city.length > 1, city);
     });
 });
+
+describe('Partial lookup tests', function() {
+  it('finding Springfield MO', function() {
+    let city = cityTimezones.findFromCityStateProvince('springfield mo')
+    console.log('found Springfield by match: ', city)
+    assert.equal(37.18001609, city[0].lat)
+  });
+  it('return nothing from nothing', function() {
+    let city = cityTimezones.findFromCityStateProvince('')
+    console.log('found no matches ', city)
+    assert.deepEqual([], city)
+  });
+});
+

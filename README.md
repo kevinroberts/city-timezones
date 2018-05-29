@@ -15,7 +15,7 @@ var cityTimezones = require('city-timezones');
 If a city is found, returns an **array** of possible matches with city, state, lat, lng, timezone. Returns an empty `[]` if nothing matches. Multiple cities can be found if they have the same name, i.e. Springfield.
 A U.S. based city will contain a `state_ansi` property which is the abbreviated form of a US State [ANSI State Table](https://www.census.gov/geo/reference/ansi_statetables.html)
 
-finding based on city name of Chicago:
+finding based on city name of Chicago (case insensitive):
 ```javascript
 const cityLookup = cityTimezones.lookupViaCity('Chicago')
 console.log(cityLookup)
@@ -37,13 +37,13 @@ Will return:
     timezone: 'America/Chicago' } ]
 ```
 
-### cityTimezones.lookupViaPartialMatch(searchString: string)
+### cityTimezones.findFromCityStateProvince(searchString: string)
 
 This method will return any partial match for the search term based on city, province, or country, or a combination thereof. A U.S. based city will also return matches for the `state_ansi` property.
 
 finding based on search term of Springfield MO
 ```javascript
-const cityLookup = cityTimezones.lookupViaPartialMatch('springfield mo')
+const cityLookup = cityTimezones.findFromCityStateProvince('springfield mo')
 console.log(cityLookup)
 ```
 Will return:

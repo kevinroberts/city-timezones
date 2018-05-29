@@ -12,18 +12,21 @@ function lookupViaCity(city) {
 }
 
 function findPartialMatch(itemsToSearch, searchString) {
-    var searchItems = searchString.split(" ");
-    var isPartialMatch = searchItems.every(function(i) {
+    const searchItems = searchString.split(" ");
+    const isPartialMatch = searchItems.every(function(i) {
         return itemsToSearch.join().toLowerCase().indexOf(i.toLowerCase()) >= 0;
     })
-    return isPartialMatch;
+    return isPartialMatch
 }
 
-function lookupViaPartialMatch(searchString) {
-  var searchItems = searchString.split(" ");
-  const cityLookup = _.filter(cityMapping, function (o) { return findPartialMatch([o.city,o.state_ansi,o.province,o.country], searchString) })
-  if (cityLookup && cityLookup.length > 0) {
-    return cityLookup
+function findFromCityStateProvince(searchString) {
+  if (searchString) {
+    const cityLookup = _.filter(cityMapping, function (o) { return findPartialMatch([o.city,o.state_ansi,o.province,o.country], searchString) })
+    if (cityLookup && cityLookup.length > 0) {
+      return cityLookup
+    } else {
+      return []
+    }
   } else {
     return []
   }
@@ -31,5 +34,5 @@ function lookupViaPartialMatch(searchString) {
 
 module.exports = {
   lookupViaCity,
-  lookupViaPartialMatch
+  findFromCityStateProvince
 };
