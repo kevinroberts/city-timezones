@@ -36,3 +36,27 @@ Will return:
     state_ansi: 'IL',
     timezone: 'America/Chicago' } ]
 ```
+
+### cityTimezones.lookupViaPartialMatch(searchString: string)
+
+This method will return any partial match for the search term based on city, province, or country, or a combination thereof. A U.S. based city will also return matches for the `state_ansi` property.
+
+finding based on search term of Springfield MO
+```javascript
+const cityLookup = cityTimezones.lookupViaPartialMatch('springfield mo')
+console.log(cityLookup)
+```
+Will return:
+```javascript
+[ { city: 'Springfield',
+    city_ascii: 'Springfield',
+    lat: 37.18001609,
+    lng: -93.31999923,
+    pop: 180691,
+    country: 'United States of America',
+    iso2: 'US',
+    iso3: 'USA',
+    province: 'Missouri',
+    state_ansi: 'MO',
+    timezone: 'America/Chicago' } ]	
+```
