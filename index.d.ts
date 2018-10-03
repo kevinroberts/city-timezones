@@ -15,6 +15,19 @@ declare module 'city-timezones' {
         readonly exactProvince: string;
     }
 
+    /**
+     * Search city info trough searching its name.
+     * 
+     * @param input City name.
+     * @returns All the matching cities from search criteria.
+     */
     export function lookupViaCity(input: string): CityData[];
+
+    /**
+     * Search city info trough searching its state or province name
+     * 
+     * @param input State or province name.
+     * @returns All the matching cities from search criteria.
+     */
     export function findFromCityStateProvince(input: string): CityData[];
 }
