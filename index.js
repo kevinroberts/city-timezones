@@ -4,7 +4,7 @@ const cityMapping = require('./data/cityMap.json')
 
 function lookupViaCity(city) {
   const cityLookup = _.filter(cityMapping, function (o) { return o.city.toLowerCase() === city.toLowerCase() })
-  if (cityLookup && cityLookup.length > 0) {
+  if (cityLookup && cityLookup.length) {
     return cityLookup
   } else {
     return []
@@ -22,7 +22,7 @@ function findPartialMatch(itemsToSearch, searchString) {
 function findFromCityStateProvince(searchString) {
   if (searchString) {
     const cityLookup = _.filter(cityMapping, function (o) { return findPartialMatch([o.city,o.state_ansi,o.province,o.country], searchString) })
-    if (cityLookup && cityLookup.length > 0) {
+    if (cityLookup && cityLookup.length) {
       return cityLookup
     } else {
       return []
