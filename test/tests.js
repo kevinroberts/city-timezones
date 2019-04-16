@@ -29,6 +29,11 @@ describe('Partial lookup tests', function() {
     console.log('found Springfield by match: ', city)
     assert.equal(37.18001609, city[0].lat)
   });
+  it('finding cities matching London', function() {
+    let city = cityTimezones.findFromCityStateProvince('London')
+    console.log('found 6 London\'s by match: ', city)
+    assert.equal(6, city.length);
+  });
   it('return nothing from nothing', function() {
     let city = cityTimezones.findFromCityStateProvince('')
     console.log('found no matches ', city)

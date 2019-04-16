@@ -88638,5 +88638,17 @@
     "iso3": "ZWE",
     "province": "Bulawayo",
     "timezone": "Africa/Harare"
+  },
+  {
+    "city": "Copenhagen",
+    "city_ascii": "Copenhagen",
+    "lat": 55.676098,
+    "lng": 12.568337,
+    "pop": 602481,
+    "country": "Denmark",
+    "iso2": "DK",
+    "iso3": "DNK",
+    "province": "Hovedstaden",
+    "timezone": "Europe/Copenhagen"
   }
 ]

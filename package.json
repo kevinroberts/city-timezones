@@ -22,9 +22,9 @@
   "author": "Kevin Roberts",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": ">=4.17.11"
   },
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^6.1.3"
   }
 }
