@@ -65,7 +65,6 @@ Will return:
 
 This array will contain the full list of all available cities.
 
-finding based on search term of Springfield MO
 ```javascript
 const cityMapping = cityTimezones.cityMapping
 console.log(cityMapping)
