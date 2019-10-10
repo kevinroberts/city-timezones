@@ -60,3 +60,43 @@ Will return:
     state_ansi: 'MO',
     timezone: 'America/Chicago' } ]	
 ```
+
+### cityTimezones.cityMapping
+
+This array will contain the full list of all available cities.
+
+finding based on search term of Springfield MO
+```javascript
+const cityMapping = cityTimezones.cityMapping
+console.log(cityMapping)
+```
+Will return:
+```javascript
+[
+  {
+    "city": "Qal eh-ye Now",
+    "city_ascii": "Qal eh-ye",
+    "lat": 34.98300013,
+    "lng": 63.13329964,
+    "pop": 2997,
+    "country": "Afghanistan",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "province": "Badghis",
+    "timezone": "Asia/Kabul"
+  },
+  {
+    "city": "Chaghcharan",
+    "city_ascii": "Chaghcharan",
+    "lat": 34.5167011,
+    "lng": 65.25000063,
+    "pop": 15000,
+    "country": "Afghanistan",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "province": "Ghor",
+    "timezone": "Asia/Kabul"
+  },
+  ...
+]	
+```
