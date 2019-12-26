@@ -7108,7 +7108,7 @@
     "city_ascii": "Melbourne",
     "lat": -37.82003131,
     "lng": 144.9750162,
-    "pop": 2131812.5,
+    "pop": 4936000,
     "country": "Australia",
     "iso2": "AU",
     "iso3": "AUS",
@@ -7120,7 +7120,7 @@
     "city_ascii": "Sydney",
     "lat": -33.92001097,
     "lng": 151.1851798,
-    "pop": 4135711,
+    "pop": 5230330,
     "country": "Australia",
     "iso2": "AU",
     "iso3": "AUS",
@@ -88649,6 +88649,18 @@
     "iso2": "DK",
     "iso3": "DNK",
     "province": "Hovedstaden",
+    "timezone": "Europe/Copenhagen"
+  },
+  {
+    "city": "Oakleigh",
+    "city_ascii": "Oakleigh",
+    "lat": -37.913000,
+    "lng": 145.102000,
+    "pop": 7893,
+    "country": "Australia",
+    "iso2": "DK",
+    "iso3": "AUS",
+    "province": "Victoria",
     "timezone": "Europe/Copenhagen"
   }
 ]
