@@ -41,3 +41,12 @@ describe('Partial lookup tests', function() {
   });
 });
 
+describe('Returns full list of cities from source JSON', function() {
+    it('finding all cities', function() {
+        const cityMapping = cityTimezones.cityMapping
+        console.log('found number of cities: ', cityMapping.length)
+        assert(cityMapping.length >= 7323, 'finding all cities');
+    });
+});
+
+
