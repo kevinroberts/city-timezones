@@ -34,5 +34,6 @@ function findFromCityStateProvince(searchString) {
 
 module.exports = {
   lookupViaCity,
-  findFromCityStateProvince
+  findFromCityStateProvince,
+  cityMapping
 };
