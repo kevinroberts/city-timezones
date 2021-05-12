@@ -75898,6 +75898,18 @@
     "timezone": "America/Phoenix"
   },
   {
+    "city": "Nogales",
+    "city_ascii": "Nogales",
+    "lat": 31.340278,
+    "lng": -110.934167,
+    "pop": 20837,
+    "country": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "province": "Arizona",
+    "timezone": "America/Phoenix"
+  },
+  {
     "city": "Berkeley",
     "city_ascii": "Berkeley",
     "lat": 37.87390139,
