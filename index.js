@@ -32,8 +32,23 @@ function findFromCityStateProvince(searchString) {
   }
 }
 
+function findFromIsoCode(isoCodeValue){
+  if (isoCodeValue) {
+    const cityLookup = _.filter(cityMapping, function (o) {
+      return o.iso2.toString().toLowerCase() === isoCodeValue.toLowerCase() || o.iso3.toString().toLowerCase() === isoCodeValue.toLowerCase() })
+    if (cityLookup && cityLookup.length) {
+      return cityLookup
+    } else {
+      return []
+    }
+  } else {
+    return []
+  }
+}
+
 module.exports = {
   lookupViaCity,
   findFromCityStateProvince,
+  findFromIsoCode,
   cityMapping
 };

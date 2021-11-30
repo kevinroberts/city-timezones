@@ -30,4 +30,13 @@ declare module 'city-timezones' {
      * @returns All the matching cities from search criteria.
      */
     export function findFromCityStateProvince(input: string): CityData[];
+
+    /**
+     * 
+     * @param input Iso2 or iso3 code
+     * @returns All the matching cities from search criteria.
+     */
+    export function findFromIsoCode(input: string): CityData[];
+
+
 }
