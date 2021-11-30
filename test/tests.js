@@ -49,4 +49,34 @@ describe('Returns full list of cities from source JSON', function() {
     });
 });
 
+describe('Iso code lookup tests', function() {
+  it('finding iso2 de', function() {
+    let iso_code_result = cityTimezones.findFromIsoCode('de')
+    console.log('found de by iso2: ', iso_code_result)
+    assert.equal(49.98247246, iso_code_result[0].lat);
+  });
+
+  it('finding iso3 deu', function() {
+    let iso_code_result = cityTimezones.findFromIsoCode('deu')
+    console.log('found deu by iso3: ', iso_code_result)
+    assert.equal(49.98247246, iso_code_result[0].lat);
+  });
+
+  it('finding DE lower cased', function() {
+    let iso_code_result = cityTimezones.findFromIsoCode('DE')
+    console.log('found DE by iso lower case: ', iso_code_result)
+    assert.equal(49.98247246, iso_code_result[0].lat);
+  });
+
+  it('return empty for non matching city', function() {
+    let iso_code_result = cityTimezones.findFromIsoCode('Foobar')
+    assert.deepEqual([], iso_code_result);
+  })
+
+  it('return multiple matches', function() {
+    let iso_code_result = cityTimezones.findFromIsoCode('de')
+    console.log(iso_code_result.length + ' matches found for de')
+    assert(iso_code_result.length > 1, iso_code_result);
+  });
+});
 
