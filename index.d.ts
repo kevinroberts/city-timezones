@@ -30,4 +30,11 @@ declare module 'city-timezones' {
      * @returns All the matching cities from search criteria.
      */
     export function findFromCityStateProvince(input: string): CityData[];
+    
+    /**
+     * Array of all city objects
+     * 
+     * @returns All the cities.
+     */
+    export const cityMapping: CityData[];
 }
