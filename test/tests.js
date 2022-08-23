@@ -50,7 +50,9 @@ describe('Returns full list of cities from source JSON', function() {
     it('ensures field types are consistent', function () {
         const cityMapping = cityTimezones.cityMapping;
         const iso2Fields = cityMapping.filter((item) => typeof item.iso2 !== 'string');
-        assert.equal(iso2Fields.length, 0, `iso2 field should be a string ${JSON.stringify(iso2Fields)}`);
+        assert.equal(iso2Fields.length, 0, `iso2 field should be a string ${JSON.stringify(iso2Fields, null, 2)}`);
+        const iso3Fields = cityMapping.filter((item) => typeof item.iso3 !== 'string')
+        assert.equal(iso3Fields.length, 0, `iso3 field should be a string ${JSON.stringify(iso3Fields, null, 2)}`);
     })
 });
 

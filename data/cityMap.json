@@ -43639,7 +43639,7 @@
     "lng": 20.3107393,
     "pop": 93481.5,
     "country": "Kosovo",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "KOS",
     "province": "Ðakovica",
     "timezone": "Europe/Belgrade"
@@ -43651,7 +43651,7 @@
     "lng": 21.16598425,
     "pop": 331700,
     "country": "Kosovo",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "KOS",
     "province": "Pristina",
     "timezone": "Europe/Belgrade"
@@ -53132,7 +53132,7 @@
     "lng": 33.95001013,
     "pop": 33016.5,
     "country": "Northern Cyprus",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "CYN",
     "province": "",
     "timezone": "Asia/Famagusta"
@@ -66104,7 +66104,7 @@
     "lng": 43.18004106,
     "pop": 67664,
     "country": "Somaliland",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "SOL",
     "province": "",
     "timezone": "Africa/Mogadishu"
@@ -66116,7 +66116,7 @@
     "lng": 45.54000037,
     "pop": 102931.5,
     "country": "Somaliland",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "SOL",
     "province": "",
     "timezone": "Africa/Mogadishu"
@@ -66128,7 +66128,7 @@
     "lng": 47.09752803,
     "pop": 30000,
     "country": "Somaliland",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "SOL",
     "province": "",
     "timezone": "Africa/Mogadishu"
@@ -66140,7 +66140,7 @@
     "lng": 45.01641475,
     "pop": 178407,
     "country": "Somaliland",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "SOL",
     "province": "",
     "timezone": "Africa/Mogadishu"
@@ -66152,7 +66152,7 @@
     "lng": 44.06531002,
     "pop": 362447,
     "country": "Somaliland",
-    "iso2": -99,
+    "iso2": "",
     "iso3": "SOL",
     "province": "",
     "timezone": "Africa/Mogadishu"
