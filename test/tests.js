@@ -5,12 +5,12 @@ describe('City lookup tests', function() {
     it('finding Chicago', function() {
       let city = cityTimezones.lookupViaCity('Chicago')
       console.log('found Chicago by name: ', city)
-      assert.equal(41.82999066, city[0].lat);
+      assert.equal(city[0].lat, 41.82999066);
     });
     it('finding Chicago lower cased', function() {
       let city = cityTimezones.lookupViaCity('chicago')
       console.log('found Chicago by name lower case: ', city)
-      assert.equal(41.82999066, city[0].lat);
+      assert.equal(city[0].lat, 41.82999066);
     });
     it('return empty for non matching city', function() {
       let city = cityTimezones.lookupViaCity('Foobar')
@@ -27,12 +27,12 @@ describe('Partial lookup tests', function() {
   it('finding Springfield MO', function() {
     let city = cityTimezones.findFromCityStateProvince('springfield mo')
     console.log('found Springfield by match: ', city)
-    assert.equal(37.18001609, city[0].lat)
+    assert.equal(city[0].lat, 37.18001609)
   });
   it('finding cities matching London', function() {
     let city = cityTimezones.findFromCityStateProvince('London')
     console.log('found 6 London\'s by match: ', city)
-    assert.equal(6, city.length);
+    assert.equal(city.length, 6);
   });
   it('return nothing from nothing', function() {
     let city = cityTimezones.findFromCityStateProvince('')
