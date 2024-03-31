@@ -74207,7 +74207,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Mykolayiv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Chernihiv",
@@ -74219,7 +74219,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Chernihiv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Khmelnytskyy",
@@ -74231,7 +74231,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Khmel'nyts'kyy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kamyanets-Podilskyy",
@@ -74243,7 +74243,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Khmel'nyts'kyy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Drohobych",
@@ -74255,7 +74255,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "L'viv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Uzhgorod",
@@ -74279,7 +74279,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Cherkasy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Brovary",
@@ -74290,8 +74290,8 @@
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Kiev",
-    "timezone": "Europe/Kiev"
+    "province": "Kyiv",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Bila Tserkva",
@@ -74302,8 +74302,8 @@
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Kiev",
-    "timezone": "Europe/Kiev"
+    "province": "Kyiv",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Illichivsk",
@@ -74314,8 +74314,8 @@
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Odessa",
-    "timezone": "Europe/Kiev"
+    "province": "Odesa",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Konotop",
@@ -74327,7 +74327,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Sumy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kryvyy Rih",
@@ -74339,7 +74339,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Dnipropetrovs'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Makiyivka",
@@ -74351,7 +74351,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Donets'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Horlivka",
@@ -74363,7 +74363,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Donets'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kramatorsk",
@@ -74375,7 +74375,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Donets'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Berdyansk",
@@ -74447,7 +74447,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Crimea",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Voznesensk",
@@ -74459,7 +74459,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Mykolayiv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Nizhyn",
@@ -74471,7 +74471,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Chernihiv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Rivne",
@@ -74483,7 +74483,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Rivne",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Chernivtsi",
@@ -74495,7 +74495,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Chernivtsi",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Ivano-Frankivsk",
@@ -74507,7 +74507,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Ivano-Frankivs'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Ternopil",
@@ -74519,7 +74519,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Ternopil'",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Lutsk",
@@ -74531,7 +74531,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Volyn",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kovel",
@@ -74543,7 +74543,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Volyn",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Cherkasy",
@@ -74555,7 +74555,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Cherkasy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kirovohrad",
@@ -74567,7 +74567,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Kirovohrad",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Izmayil",
@@ -74578,8 +74578,8 @@
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Odessa",
-    "timezone": "Europe/Kiev"
+    "province": "Odesa",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Vinnytsya",
@@ -74591,7 +74591,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Vinnytsya",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Korosten",
@@ -74603,7 +74603,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Zhytomyr",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Shostka",
@@ -74615,7 +74615,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Sumy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Nikopol",
@@ -74627,7 +74627,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Dnipropetrovs'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kupyansk",
@@ -74639,7 +74639,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Kharkiv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Lysychansk",
@@ -74651,7 +74651,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Luhans'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Luhansk",
@@ -74663,7 +74663,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Luhans'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Poltava",
@@ -74675,7 +74675,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Poltava",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kremenchuk",
@@ -74687,7 +74687,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Poltava",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Melitopol",
@@ -74734,8 +74734,8 @@
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Kiev",
-    "timezone": "Europe/Kiev"
+    "province": "Kyiv",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Sumy",
@@ -74747,7 +74747,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Sumy",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Mariupol",
@@ -74759,7 +74759,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Donets'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Lvov",
@@ -74771,19 +74771,19 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "L'viv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
-    "city": "Odessa",
-    "city_ascii": "Odessa",
+    "city": "Odesa",
+    "city_ascii": "Odesa",
     "lat": 46.4900163,
     "lng": 30.71000118,
     "pop": 847500.5,
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Odessa",
-    "timezone": "Europe/Kiev"
+    "province": "Odesa",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Zhytomyr",
@@ -74795,7 +74795,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Zhytomyr",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Dnipropetrovsk",
@@ -74807,7 +74807,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Dnipropetrovs'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Donetsk",
@@ -74819,7 +74819,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Donets'k",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Kharkiv",
@@ -74831,7 +74831,7 @@
     "iso2": "UA",
     "iso3": "UKR",
     "province": "Kharkiv",
-    "timezone": "Europe/Kiev"
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Sevastapol",
@@ -74846,16 +74846,16 @@
     "timezone": "Europe/Simferopol"
   },
   {
-    "city": "Kiev",
-    "city_ascii": "Kiev",
+    "city": "Kyiv",
+    "city_ascii": "Kyiv",
     "lat": 50.43336733,
     "lng": 30.51662797,
     "pop": 2185754,
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
-    "province": "Kiev",
-    "timezone": "Europe/Kiev"
+    "province": "Kyiv",
+    "timezone": "Europe/Kyiv"
   },
   {
     "city": "Umm al Qaywayn",
