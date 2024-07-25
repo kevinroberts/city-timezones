@@ -61,6 +61,34 @@ Will return:
     timezone: 'America/Chicago' } ]	
 ```
 
+### cityTimezones.findFromIsoCode(iso_code: string)
+
+If a iso code is found, returns an **array** of possible matches with city, state, lat, lng, timezone. Returns an empty `[]` if nothing matches. Multiple cities are returned if there are more than one city for the given iso code.
+
+finding based on iso code of Germany (case insensitive):
+```javascript
+const findFromIsoCode = cityTimezones.findFromIsoCode('DE')
+console.log(findFromIsoCode)
+```
+Will return:
+```javascript
+[
+  {
+    city: "Mainz",
+    city_ascii: "Mainz",
+    country: "Germany",
+    iso2: "DE",
+    iso3: "DEU",
+    lat: 49.98247246,
+    lng: 8.273219156,
+    pop: 184997,
+    province: "Rheinland-Pfalz",
+    timezone: "Europe/Berlin"
+  },
+  ...
+]
+```
+
 ### cityTimezones.cityMapping
 
 This array will contain the full list of all available cities.
@@ -98,32 +126,4 @@ Will return:
   },
   ...
 ]	
-```
-
-### cityTimezones.findFromIsoCode(iso_code: string)
-
-If a iso code is found, returns an **array** of possible matches with city, state, lat, lng, timezone. Returns an empty `[]` if nothing matches. Multiple cities are returned if there are more than one city for the given iso code.
-
-finding based on iso code of Germany (case insensitive):
-```javascript
-const findFromIsoCode = cityTimezones.findFromIsoCode('DE')
-console.log(findFromIsoCode)
-```
-Will return:
-```javascript
-[
-  {
-    city: "Mainz"
-    city_ascii: "Mainz"
-    country: "Germany"
-    iso2: "DE"
-    iso3: "DEU"
-    lat: 49.98247246
-    lng: 8.273219156
-    pop: 184997
-    province: "Rheinland-Pfalz"
-    timezone: "Europe/Berlin"
-  },
-  ...
-]
 ```
