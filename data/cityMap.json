@@ -34825,8 +34825,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Gurgaon",
-    "city_ascii": "Gurgaon",
+    "city": "Gurugram",
+    "city_ascii": "Gurugram",
     "lat": 28.45000633,
     "lng": 77.01999101,
     "pop": 197340,
@@ -35245,8 +35245,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Rajahmundry",
-    "city_ascii": "Rajahmundry",
+    "city": "Rajamahendravaram",
+    "city_ascii": "Rajamahendravaram",
     "lat": 17.03034161,
     "lng": 81.78998409,
     "pop": 304804,
@@ -35413,8 +35413,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Shimoga",
-    "city_ascii": "Shimoga",
+    "city": "Shivamogga",
+    "city_ascii": "Shivamogga",
     "lat": 13.93037579,
     "lng": 75.56002844,
     "pop": 486802.5,
@@ -35437,8 +35437,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Hospet",
-    "city_ascii": "Hospet",
+    "city": "Hosapete",
+    "city_ascii": "Hosapete",
     "lat": 15.28039675,
     "lng": 76.37501745,
     "pop": 241926.5,
@@ -35497,8 +35497,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Port Blair",
-    "city_ascii": "Port Blair",
+    "city": "Sri Vijaya Puram",
+    "city_ascii": "Sri Vijaya Puram",
     "lat": 11.66702557,
     "lng": 92.73598262,
     "pop": 119806,
@@ -35677,8 +35677,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Faizabad",
-    "city_ascii": "Faizabad",
+    "city": "Ayodhya",
+    "city_ascii": "Ayodhya",
     "lat": 26.75039431,
     "lng": 82.17001257,
     "pop": 153047,
@@ -35881,8 +35881,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Aurangabad",
-    "city_ascii": "Aurangabad",
+    "city": "Chhatrapati Sambhajinagar",
+    "city_ascii": "Chhatrapati Sambhajinagar",
     "lat": 24.7704118,
     "lng": 84.38000688,
     "pop": 95929,
@@ -36445,8 +36445,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Tumkur",
-    "city_ascii": "Tumkur",
+    "city": "Tumakuru",
+    "city_ascii": "Tumakuru",
     "lat": 13.32997316,
     "lng": 77.1000378,
     "pop": 353482.5,
@@ -36469,8 +36469,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Bellary",
-    "city_ascii": "Bellary",
+    "city": "Ballari",
+    "city_ascii": "Ballari",
     "lat": 15.15004295,
     "lng": 76.91503617,
     "pop": 391034.5,
@@ -36481,8 +36481,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Belgaum",
-    "city_ascii": "Belgaum",
+    "city": "Belagavi",
+    "city_ascii": "Belagavi",
     "lat": 15.86501223,
     "lng": 74.5050024,
     "pop": 609472.5,
@@ -36553,8 +36553,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Aurangabad",
-    "city_ascii": "Aurangabad",
+    "city": "Chhatrapati Sambhajinagar",
+    "city_ascii": "Chhatrapati Sambhajinagar",
     "lat": 19.89569643,
     "lng": 75.32030147,
     "pop": 1064720.5,
@@ -36601,8 +36601,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Allahabad",
-    "city_ascii": "Allahabad",
+    "city": "Prayagraj",
+    "city_ascii": "Prayagraj",
     "lat": 25.45499534,
     "lng": 81.84000688,
     "pop": 1137219,
@@ -36793,8 +36793,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Hubli",
-    "city_ascii": "Hubli",
+    "city": "Hubballi",
+    "city_ascii": "Hubballi",
     "lat": 15.35997845,
     "lng": 75.12501623,
     "pop": 841402,
@@ -36805,8 +36805,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Mangalore",
-    "city_ascii": "Mangalore",
+    "city": "Mangaluru",
+    "city_ascii": "Mangaluru",
     "lat": 12.90002525,
     "lng": 74.84999426,
     "pop": 597009.5,
@@ -36817,8 +36817,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Mysore",
-    "city_ascii": "Mysore",
+    "city": "Mysuru",
+    "city_ascii": "Mysuru",
     "lat": 12.30998374,
     "lng": 76.66001298,
     "pop": 877656.5,
@@ -36973,8 +36973,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Raipur",
-    "city_ascii": "Raipur",
+    "city": "Atal Nagar",
+    "city_ascii": "Atal Nagar",
     "lat": 21.23499453,
     "lng": 81.63500647,
     "pop": 777497.5,
@@ -37309,8 +37309,8 @@
     "timezone": "Asia/Kolkata"
   },
   {
-    "city": "Bangalore",
-    "city_ascii": "Bangalore",
+    "city": "Bengaluru",
+    "city_ascii": "Bengaluru",
     "lat": 12.96999514,
     "lng": 77.56000972,
     "pop": 5945523.5,
