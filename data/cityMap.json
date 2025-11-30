@@ -88688,5 +88688,44 @@
     "state_ansi": "IL",
     "province": "Illinois",
     "timezone": "America/Chicago"
+  },
+  {
+    "city": "Oxford",
+    "city_ascii": "Oxford",
+    "lat": 34.3665,
+    "lng": -89.5192,
+    "pop": 25000,
+    "country": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "province": "Mississippi",
+    "state_ansi": "MS",
+    "timezone": "America/Chicago"
+  },
+  {
+    "city": "Starkville",
+    "city_ascii": "Starkville",
+    "lat": 33.4504,
+    "lng": -88.8184,
+    "pop": 25000,
+    "country": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "province": "Mississippi",
+    "state_ansi": "MS",
+    "timezone": "America/Chicago"
+  },
+  {
+    "city": "College Station",
+    "city_ascii": "College Station",
+    "lat": 30.6279,
+    "lng": -96.3344,
+    "pop": 120000,
+    "country": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "province": "Texas",
+    "state_ansi": "TX",
+    "timezone": "America/Chicago"
   }
 ]
