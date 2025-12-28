@@ -1,5 +1,4 @@
 "use strict";
-const _ = require('lodash')
 const cityMapping = require('./data/cityMap.json')
 
 /**
@@ -8,7 +7,7 @@ const cityMapping = require('./data/cityMap.json')
  * @returns {CityData[]} - array of city data matches
  */
 function lookupViaCity(city) {
-  const cityLookup = _.filter(cityMapping, function (o) { return o.city.toLowerCase() === city.toLowerCase() })
+  const cityLookup = cityMapping.filter(function (o) { return o.city.toLowerCase() === city.toLowerCase() })
   if (cityLookup && cityLookup.length) {
     return cityLookup
   } else {
@@ -37,7 +36,7 @@ function findPartialMatch(itemsToSearch, searchString) {
  */
 function findFromCityStateProvince(searchString) {
   if (searchString) {
-    const cityLookup = _.filter(cityMapping, function (o) { return findPartialMatch([o.city,o.state_ansi,o.province,o.country], searchString) })
+    const cityLookup = cityMapping.filter(function (o) { return findPartialMatch([o.city,o.state_ansi,o.province,o.country], searchString) })
     if (cityLookup && cityLookup.length) {
       return cityLookup
     } else {
@@ -55,7 +54,7 @@ function findFromCityStateProvince(searchString) {
  */
 function findFromIsoCode(isoCodeValue){
   if (isoCodeValue) {
-    const cityLookup = _.filter(cityMapping, function (o) {
+    const cityLookup = cityMapping.filter(function (o) {
       return o.iso2.toString().toLowerCase() === isoCodeValue.toLowerCase() || o.iso3.toString().toLowerCase() === isoCodeValue.toLowerCase() })
     if (cityLookup && cityLookup.length) {
       return cityLookup
