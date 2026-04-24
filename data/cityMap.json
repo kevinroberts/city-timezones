@@ -27577,8 +27577,8 @@
     "timezone": "America/Curacao"
   },
   {
-    "city": "Larnaka",
-    "city_ascii": "Larnaka",
+    "city": "Larnaca",
+    "city_ascii": "Larnaca",
     "lat": 34.9170031,
     "lng": 33.63599757,
     "pop": 48947,
@@ -27601,8 +27601,8 @@
     "timezone": "Asia/Nicosia"
   },
   {
-    "city": "Lemosos",
-    "city_ascii": "Lemosos",
+    "city": "Limassol",
+    "city_ascii": "Limassol",
     "lat": 34.67541445,
     "lng": 33.0333219,
     "pop": 149486,
@@ -27621,7 +27621,7 @@
     "country": "Cyprus",
     "iso2": "CY",
     "iso3": "CYP",
-    "province": "",
+    "province": "Nicosia",
     "timezone": "Asia/Nicosia"
   },
   {
@@ -53119,10 +53119,10 @@
     "lat": 35.3259991,
     "lng": 33.33300361,
     "pop": 26701,
-    "country": "Northern Cyprus",
-    "iso2": "",
-    "iso3": "CYN",
-    "province": "",
+    "country": "Cyprus",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "province": "Kyrenia",
     "timezone": "Asia/Famagusta"
   },
   {
@@ -53131,10 +53131,10 @@
     "lat": 35.12502525,
     "lng": 33.95001013,
     "pop": 33016.5,
-    "country": "Northern Cyprus",
-    "iso2": -99,
-    "iso3": "CYN",
-    "province": "",
+    "country": "Cyprus",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "province": "Ammochostos",
     "timezone": "Asia/Famagusta"
   },
   {
